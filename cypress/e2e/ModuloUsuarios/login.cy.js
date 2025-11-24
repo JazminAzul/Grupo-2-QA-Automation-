@@ -1,4 +1,4 @@
-import { menuCliente, menuUsuario } from '../support/opcionesMenu'
+import { menuCliente, menuUsuario } from '../../support/opcionesMenu'
 
 describe('Login y Logout', () => {
 

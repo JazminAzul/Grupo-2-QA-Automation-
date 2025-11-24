@@ -10,7 +10,7 @@ describe('Editar Perfil de Cliente', () => {
       })
 
     it('ID 24 - Editar nombre del cliente', () => {
-        cy.get('input[aria-label="Nombre"]').eq(0).clear().type('Super Mega Producciones')
+        cy.get('input[aria-label="Nombre"]').eq(0).clear().type('Odio lo lune SA')
         cy.editarPerfilOk()
     })
 
@@ -40,7 +40,7 @@ describe('Editar Perfil de Cliente', () => {
     })
 
     it('ID 28 - Editar nombre de usuario', () => {
-        cy.get('input[aria-label="Nombre de usuario"]').clear().type('supermegaar')
+        cy.get('input[aria-label="Nombre de usuario"]').clear().type('odiololunear')
         cy.editarPerfilOk()
     })
 
