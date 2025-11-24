@@ -16,12 +16,6 @@ pnpm-lock.yaml
 .env.*.local
 
 # ==========================
-# fixtures
-# ==========================
-cypress/fixtures/usuarios.json
-
-
-# ==========================
 # Archivos del sistema
 # ==========================
 .DS_Store
