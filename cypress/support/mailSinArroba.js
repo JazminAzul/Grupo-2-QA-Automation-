@@ -1,0 +1,21 @@
+Cypress.Commands.add("mailSinArroba", () => {
+  cy.visit('https://ticketazo.com.ar/auth/registerUser')
+  cy.get('[data-cy="input-nombres"]').clear().type('Carlos Alberto')
+  cy.get('[data-cy="input-apellido"]').clear().type('Altavista')
+  cy.get('[data-cy="input-telefono"]').clear().type('3513423123')
+  cy.get('[data-cy="input-dni"]').clear().type('30213243')
+  cy.get('input[data-cy="select-provincia"]').should('be.visible').click()
+  cy.get('input[data-cy="select-provincia"]').type('Cordoba')
+  cy.contains('[role="option"]', 'Córdoba').click()
+  cy.get('[data-cy="select-localidad"]').type('Santa')
+  cy.get('ul').contains('Santa Rosa de Calamuchita').click()
+  cy.get('[data-cy="input-fecha-nacimiento"]').type('12/07/1990')
+  cy.get('[data-cy="input-email"]').clear().type('albertocarlosalbertoagmail.com')
+  cy.get('[data-cy="input-confirmar-email"]').clear().type('albertocarlosalbertoagmail.com')
+  cy.get('[data-cy="input-password"]').clear().type('Carlosaltavista1990$')
+  cy.get('[data-cy="input-repetir-password"]').clear().type('Carlosaltavista1990$')
+  cy.get('[data-cy="btn-registrarse"]').click()
+  cy.url().should('include', 'ticketazo.com.ar')
+
+  
+});
