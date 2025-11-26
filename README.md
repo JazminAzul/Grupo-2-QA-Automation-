@@ -20,7 +20,7 @@ Trello
 https://trello.com/b/azb0LfJ1/qa-automation-santex
 
 Plan de pruebas
-https://drive.google.com/drive/folders/1-S_yKP8xKhn7dKCliMOVsEY9wB2IPK02
+https://docs.google.com/spreadsheets/d/1E74IpUITPs33cSQDQ8IXRVblHtUy5aHn/edit?usp=sharing&ouid=115247319299314764145&rtpof=true&sd=true
 
 
 
