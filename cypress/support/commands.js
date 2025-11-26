@@ -64,6 +64,19 @@ Cypress.Commands.add('login', (email, password) => {
     cy.get('[data-cy="btn-save-profile"]').click()
     cy.contains('¡Perfil actualizado con éxito!').should('be.visible')
   })
+
+  //CONSULTA EVENTOS
+  Cypress.Commands.add('rangoFechasBusqueda', (fechaInicio, fechaFin) => {
+    const [diaIn, mesIn, añoIn] = fechaInicio.split('/');
+    const [diaFin, mesFin, añoFin] = fechaFin.split('/');
+
+    cy.get('div[aria-label="día, Fecha de inicio, "]').clear().type(diaIn)
+    cy.get('div[aria-label="mes, Fecha de inicio, "]').clear().type(mesIn)
+    cy.get('div[aria-label="año, Fecha de inicio, "]').clear().type(añoIn)
+    cy.get('div[aria-label="día, Fecha final, "]').clear().type(diaFin)
+    cy.get('div[aria-label="mes, Fecha final, "]').clear().type(mesFin)
+    cy.get('div[aria-label="año, Fecha final, "]').clear().type(añoFin)
+  })
   
 
   
