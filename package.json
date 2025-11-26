@@ -3,6 +3,11 @@
   "autor": "Gustavo Lima",
   "devDependencies": {
     "cypress": "^14.5.1"
+  },
+
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open"
   }
 }
 

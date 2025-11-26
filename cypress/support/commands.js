@@ -39,3 +39,7 @@ Cypress.Commands.add('cambioDeNombre', () => {
     cy.get('[data-cy="btn-save-profile"]').click()
 
 })
+
+  
+
+ 
