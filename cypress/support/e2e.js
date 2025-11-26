@@ -15,3 +15,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './cambiarTelefono'
+import './cambiarNombreUsuario'
+import './registroUsuarioComprador'
+import './mailSinArroba'
+import './emailsDiferentes'
+import './contraseñasQuenoCoinciden'
+import './contrasenaSinRequisitos'

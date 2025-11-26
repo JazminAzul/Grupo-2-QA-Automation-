@@ -1,0 +1,18 @@
+{
+  "nombres": "Carlos Alberto",
+  "apellido": "Altavista",
+  "telefono": "3513423123",
+  "dni": "30213243",
+  "provincia": "Córdoba",
+  "localidad": "Córdoba",
+  "fechaNacimiento": {
+    "dia": "12",
+    "mes": "07",
+    "año": "1990"
+  },
+  "email": "albertocarlosalbertoa@gmail.com",
+  "repetirEmail": "albertocarlosalbertoa@gmail.com",
+  "password": "Carlosaltavista1990$",
+  "repetirPassword": "Carlosaltavista1990$",
+  
+}
